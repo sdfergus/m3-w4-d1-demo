@@ -1,8 +1,7 @@
 h2 {
-  &:extend(.style);
   font-style: italic;
 }
-
-.style {
+.style,
+h2 {
   background: green;
 }
